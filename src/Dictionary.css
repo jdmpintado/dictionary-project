@@ -1,11 +1,27 @@
 .Dictionary {
-text-align: center;
-margin: 40px 0;
+    max-width: 800px;
+    background-color: white;
+    border: 1px solid rgba(150, 112, 243, 0.2);
+border-radius: 10px;
+margin: 40px auto;
+padding: 30px 40px;
+text-align: left;
+}
+
+.Dictionary h1 {
+    font-size: 20px;
 }
 
 .Dictionary .search-form {
-width: 40%;
+width: 100%;
+margin-top: 15px;
 padding: 10px 15px;
 border-radius: 10px;
 border: 1px solid grey;
+}
+
+.Dictionary .form-footnote {
+    font-size: 12px;
+    margin-top: 10px;
+    opacity: 0.8;
 }

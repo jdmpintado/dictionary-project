@@ -1,12 +1,15 @@
 .Results {
-    margin: 40px;
+    margin: 20px 0;
     text-align: left;
-    padding: 0 200px;
 }
 
 .Results h3 {
     opacity: 0.8;
-    font-size: 16px;
+    font-size: 18px;
+}
+
+.Results p {
+    font-size: 18px;
 }
 
 em {

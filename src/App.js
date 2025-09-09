@@ -20,14 +20,32 @@ function App() {
           <Dictionary />
         </main>
         <footer className="App-footer">
-          This project was coded by Jéssica Pintado, and is{" "}
+          This project was coded by{" "}
+          <a
+            className="GitHub portfolio"
+            href="https://github.com/jdmpintado"
+            target="_blank"
+            rel="noopener noreferrer"
+          >
+            Jéssica Pintado
+          </a>
+          , is{" "}
           <a
             className="GitHub repo"
             href="https://github.com/jdmpintado/dictionary-project"
             target="_blank"
             rel="noopener noreferrer"
           >
-            open-source
+            open-sourced on GitHub
+          </a>
+          , and{" "}
+          <a
+            className="Netlify page URL"
+            href="https://effulgent-narwhal-1978a5.netlify.app/"
+            target="_blank"
+            rel="noopener noreferrer"
+          >
+            hosted on Netlify
           </a>
           .
         </footer>

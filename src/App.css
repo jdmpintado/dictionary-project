@@ -1,5 +1,5 @@
 .App {
-  margin: 30px auto;
+  margin: 80px auto;
 }
 
 .App-logo {
@@ -12,4 +12,8 @@
   text-align: center;
   margin: 30px 0;
   font-size: 14px;
+}
+
+.App a {
+  color: rgb(150, 112, 243)
 }

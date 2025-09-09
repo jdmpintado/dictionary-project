@@ -25,6 +25,7 @@ export default function Dictionary() {
 
   return (
     <div className="Dictionary">
+      <h1>What word do you want to look for?</h1>
       <form onSubmit={search}>
         <input
           type="search"
@@ -33,6 +34,7 @@ export default function Dictionary() {
           onChange={handleKeywordChange}
         />
       </form>
+      <p className="form-footnote">i.e. coding, book, sunset</p>
       <Results results={results} />
     </div>
   );

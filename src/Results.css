@@ -15,3 +15,27 @@
 em {
     opacity:0.8;
 }
+
+.Meaning p {
+    margin-bottom: 5px;
+}
+
+.Meaning .partOfSpeech {
+    margin-top: 20px;
+    color: #9670F3;
+    font-weight: bold;
+}
+
+.Synonyms {
+    list-style: none;
+    padding: 0;
+}
+
+.Synonyms .synonyms-box {
+    background-color: rgba(150, 112, 243, 0.2);
+    border-radius: 10px;
+    padding: 5px 10px;
+    margin-right: 8px;
+    font-size: 14px;
+    opacity: 0.8;
+}

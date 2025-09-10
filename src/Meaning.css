@@ -1,0 +1,22 @@
+.Meaning .partOfSpeech {
+    font-size: 16px;
+    font-weight: 600;
+    opacity: 0.6;
+    line-height: 1.5;
+    margin-bottom: 5px;
+}
+
+.Meaning .definition {
+    font-size: 16px;
+    opacity: 0.8;
+    line-height: 1.5;
+    margin-bottom: 5px;
+}
+
+.Meaning .example {
+    font-size: 16px;
+    font-style: italic;
+    opacity: 0.6;
+    line-height: 1.5;
+    margin-bottom: 5px;
+}

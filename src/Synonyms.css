@@ -1,0 +1,9 @@
+.Synonyms .synonyms-box {
+    background-color: rgb(150, 112, 243, 0.8);
+    border-radius: 15px;
+    padding: 5px 12px;
+    margin-right: 8px;
+    margin-top: 10px;
+    font-size: 13px;
+    color: white;
+}

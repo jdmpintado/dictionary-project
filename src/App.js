@@ -2,7 +2,7 @@ import logo from "./logo.png";
 import Dictionary from "./Dictionary";
 import "./App.css";
 
-function App() {
+export default function App() {
   return (
     <div className="App">
       <div className="container">
@@ -17,7 +17,7 @@ function App() {
           </a>
         </header>
         <main>
-          <Dictionary />
+          <Dictionary defaultKeyword="code"/>
         </main>
         <footer className="App-footer">
           This project was coded by{" "}
@@ -53,5 +53,3 @@ function App() {
     </div>
   );
 }
-
-export default App;

@@ -1,0 +1,9 @@
+.Images img {
+    border-radius: 6px;
+    margin-bottom: 15px;
+}
+
+.Images img:hover {
+    transform: scale(1.05);
+    transition: all 150ms ease-in-out;
+}
